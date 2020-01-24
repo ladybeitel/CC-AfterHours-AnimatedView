@@ -5,6 +5,7 @@ CC's After Hours project with more practice on view animations.
 1. Create a new Xcode project.
 2. Delete the `ViewController.swift` file. 
 3. Drag in a square picture to the `Assets` folder. 
+
 ------
 ## Step 2: Storyboard
 ### Main View Controller:
@@ -20,6 +21,7 @@ CC's After Hours project with more practice on view animations.
 1. Go to `Launchscreen.storyboard`. 
 2. Place an **image view** and constrain it in the center horizontally and vertically. Give it a width and height of 300. 
 3. Choose the same photo from `Assets` as you did previously for this **image view**. 
+
 ------
 ## Step 3: The Magic
 ### Main View Controller:
@@ -31,3 +33,8 @@ CC's After Hours project with more practice on view animations.
 4. Add two animations, one for **scaling** and one for **opacity**.
 5. Create a **segue programmatically**, and give it a delay of 3 seconds on the `DispatchQueue.main.asyncAfter`
 6. Call your function in `viewDidAppear`. 
+
+
+------
+## Solution Code:
+Please visit this [repo](https://github.com/ladybeitel/CC-AfterHours-AnimatedView-SolutionCode). 
